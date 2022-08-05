@@ -1,0 +1,14 @@
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+.App > * {
+  padding: 0 40px 0 40px;
+  scroll-snap-align: start;
+  width: 100vw;
+  height: 100%;
+}

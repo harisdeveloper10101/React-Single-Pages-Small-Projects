@@ -1,0 +1,39 @@
+.tutorial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.tutorial-container {
+  object-fit: cover;
+  width: 100vw;
+  height: 100%;
+  /* top: 0;
+  left: 0; */
+  position: absolute;
+}
+
+.tutorial-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  flex-direction: column;
+}
+.tutorial-details h1 {
+  color: #fff;
+  letter-spacing: 5px;
+  width: 100%;
+  text-align: center;
+}
+.tutorial-icon {
+  color: palevioletred;
+  margin-top: 35px;
+  border-radius: 50%;
+  font-size: 50px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+.tutorial-icon:hover {
+  color: black;
+}

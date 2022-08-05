@@ -1,0 +1,139 @@
+.working {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.working-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 90%;
+  width: 90%;
+}
+.working-features {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.working-heading {
+  width: 100%;
+  height: 13%;
+  transform: scale(1.05);
+  color: rgb(28, 28, 83);
+}
+.working-features-container {
+  display: flex;
+  gap: 50px;
+  height: 60%;
+  width: 100%;
+  flex-direction: column;
+}
+.working-attributes {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.working-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.working-description-heading {
+  color: rgb(28, 28, 83);
+  font-weight: bold;
+}
+.working-description-subHeading {
+  width: 50%;
+  font-size: 14px;
+  text-align: justify;
+}
+.working-icons {
+  border: 1px solid #b41698;
+  border-radius: 50%;
+  transform: scale(2.6);
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+}
+.working-buttons {
+  height: 35%;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  width: 70%;
+}
+.working-buttons > button {
+  height: 30%;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.working-buttons > button:hover {
+  transform: scale(1.05);
+}
+.working-buttons-icon {
+  transform: scale(2);
+}
+.apple-button {
+  background: linear-gradient(45deg, #b41698, #800080, #8000ff);
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.google-button {
+  background-color: white;
+  border: 2px solid #800080;
+  color: #800080;
+}
+.working-image {
+  display: flex;
+  align-items: center;
+
+  width: 35%;
+  height: 100%;
+}
+.working-image > img {
+  height: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .working-icons {
+    width: 45px;
+  }
+  .working-description-subHeading {
+    width: 100%;
+  }
+  .working-buttons {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .working-container {
+    width: 100%;
+  }
+  .working-image img {
+    height: 80%;
+    width: 100%;
+  }
+  .working-buttons > button {
+    font-size: 12px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .working {
+    padding: 0 20px 0 20px;
+  }
+  .working-features {
+    width: 100%;
+  }
+  .working-image {
+    display: none;
+  }
+}

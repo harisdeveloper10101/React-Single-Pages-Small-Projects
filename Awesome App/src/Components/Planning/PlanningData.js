@@ -1,0 +1,32 @@
+export const data = [
+  {
+    plan: "STARTER",
+    price: "FREE",
+    bill: "Per Month, Billed Annually",
+    courseAccess: "Access Free Courses",
+    courseDownload: "Download Up to 5 Courses",
+    feedback: "Get Teacher's Feedback",
+    reviews: "Write Reviews",
+    support: "24/7 Customer Support",
+  },
+  {
+    plan: "PRO",
+    price: "$2.5",
+    bill: "Per Month, Billed Annually",
+    courseAccess: "Access Free Courses",
+    courseDownload: "Download Up to 5 Courses",
+    feedback: "Get Teacher's Feedback",
+    reviews: "Write Reviews",
+    support: "24/7 Customer Support",
+  },
+  {
+    plan: "PREMIUM",
+    price: "$5",
+    bill: "Per Month, Billed Annually",
+    courseAccess: "Access Free Courses",
+    courseDownload: "Download Up to 5 Courses",
+    feedback: "Get Teacher's Feedback",
+    reviews: "Write Reviews",
+    support: "24/7 Customer Support",
+  },
+];
